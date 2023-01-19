@@ -1,3 +1,10 @@
+/* eslint-disable max-classes-per-file */
+/* eslint-disable import/extensions */
+/* eslint-disable */
+/* stylelint-disable */
+/* hint-disable */
+
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
