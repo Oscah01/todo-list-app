@@ -1,1 +1,42 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>To-Do List</title><script defer="defer" src="/to-do-list/runtime.bundle.js"></script><script defer="defer" src="/to-do-list/main.bundle.js"></script></head><body><section id="container"><h1>Today's To Do<span id="sync"><i class="bi bi-arrow-repeat"><sup></sup></i></span></h1><form action="#" class="text-input"><textarea name="to-dos" id="add" placeholder=" Add to your list..." rows="1" required></textarea> <button id="return" type="submit"><i class="bi bi-arrow-return-left"></i></button></form><form id="to-dos" action="#"><div id="task-list"></div><button id="clear" type="button">Clear all completed</button></form></section></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Todo list</title>
+<script defer src="main.js"></script></head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section class='todo-section'>
+            <div class="div-flex">
+                <h3>Today's Todo</h3>
+                <i class="fa fa-refresh" aria-hidden="true"></i>
+            </div>
+            <form action="" class="add">
+                <input type="text" id="todoactivity" placeholder="Add to your list...">
+                <i class="fa fa-level-down fa-lg" aria-hidden="true"></i>
+            </form>
+            <form action="">
+            <div id="activity-div">
+                <div class="div-flex">
+                    <div class="activity-flex">
+                        <input type="checkbox"/>
+                        <p>Cleaning the floor</p>
+                    </div>
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="button-div">
+                <button id="clear" type="submit">Clear All Completed </button>
+            </div>
+        </form>
+        </section>
+    </main>
+</body>
+</html>
