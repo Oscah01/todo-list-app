@@ -1,73 +1,191 @@
 
-# To-do-list
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
 
 
-> This project is for a to-do list which will enable the user to add, modify and remove tasks to be done into the list.
+**[To-do list page]** is a web page where you can add your to-do tasks, and also remove them when completed.
 
+## 🛠 Built With <a name="built-with">HTML_CSS_JS</a>
 
-## Built With
+### Tech Stack <a name="tech-stack"></a>
 
-- Major languages:
-  - HTML
-  - CSS
-  - Javascript
-- Frameworks
-  - Webpack
-- Technologies
-  - Linters
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-## Video Description 
-None
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-## Getting Started
+<!-- Features -->
 
-To get a local copy up and running follow these simple steps.
+### Key Features <a name="key-features"></a>
+
+> Listed below are the key features of my webpage.
+
+- **[Tasks list]**
+- **[Add tasks form]**
+- **[Remove tasks option]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://github.com/Oscah01/Webpack-Setup.git/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- Visual Studio
-- Browser
-- Github
-- Node JS
+
+In order to run this project you need:
+- Terminal
+- Git
+- IDE
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
-- copy this link `https://github.com/Oscah01/Webpack-Setup.git`.
-- get the directory that you want to clone the repository.
-- open the command prompt in this directory.
-- write `git clone https://github.com/Oscah01/Webpack-Setup.git`.
-- go to the repository folder in your command prompt and open `index.html` file
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/Oscah01/Webpack-Setup.git
+
+  cd matama-awesome-es6
+```
+-
+
 ### Install
-- write `git clone https://github.com/Oscah01/Webpack-Setup.git`.
-- go to the repository folder in your command prompt and open `index.html` file
+
+Install this project with:
+
+```sh
+  npm install
+```
+-
+
 ### Usage
-- This open source site can be accessed in the above provided demo link
-- Tasks can be addded by clicking the return icon in the input field
-- to modify a task, click on the task you want to modify and change the task. To save it, you just need to remove focus away from the input area.
-- the task item can be deleted by hovering over the vertical three lines at the end of the input field whereby a trash icon will appear. Click on the icon to remove the task.
-### Run tests
-- You can navigate to different parts of the page from the navigation bar and you can also inspect using the available browser tools to see how the webpages were built.
 
-## Authors
+To run the project, execute the following command:
 
-👤 **Author**
 
-- GitHub: [Oscah01](https://github.com/Oscah01)
-- Twitter: [@killer_pip](twitter.com/killer_pip)
-- LinkedIn: [Oscar Deus](https://linkedin.com/in/linkedinhandle)
+Example command:
 
-## 🤝 Contributing
+```sh
+  Open this project in your live server
+```
+<!-- AUTHORS -->
+
+## 👥 Author <a name="author"></a>
+
+>Oscar Deus
+
+
+👤 **Daniel Matama**
+
+- GitHub: [DanielMatama](https://github.com/danielmatama)
+- LinkedIn: [DanielMatama](https://www.linkedin.com/in/daniel-matama-9190ba254/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Mark tasks as complete]**
+- [ ] **[Add comment to tasks]**
+- [ ] **[]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Show your support
+<!-- SUPPORT -->
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
+If you like this project...
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./LICENSE) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
