@@ -1,0 +1,72 @@
+body {
+  background-color: #dadada;
+}
+
+.todo-section {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add {
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px 12px 20px;
+  line-height: 2px;
+  font-size: 20px;
+  border: 2px solid #dadada;
+}
+
+input:focus {
+  outline: none;
+}
+
+.div-flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 2px;
+  font-weight: 200;
+  padding: 12px 20px 12px 20px;
+  border: 2px solid #dadada;
+  align-items: baseline;
+}
+
+#todoactivity {
+  overflow: hidden;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: 20px;
+}
+
+.activity-flex {
+  align-items: baseline;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  line-height: 2px;
+}
+
+.div-flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+#clear {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #dadada;
+  color: grey;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
