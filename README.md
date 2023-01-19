@@ -131,10 +131,10 @@ Example command:
 >Oscar Deus
 
 
-👤 **Daniel Matama**
+👤 **Oscar Deus**
 
-- GitHub: [DanielMatama](https://github.com/danielmatama)
-- LinkedIn: [DanielMatama](https://www.linkedin.com/in/daniel-matama-9190ba254/)
+- GitHub: [Oscah01](https://github.com/Oscah01)
+- LinkedIn: [Oscar Deus](https://www.linkedin.com/in/oscah-deus-757833210/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
