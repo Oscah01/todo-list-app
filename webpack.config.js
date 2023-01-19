@@ -1,31 +1,36 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
 module.exports = {
-    mode: 'development', //production
-    entry: {
-      main: path.resolve(__dirname, 'src/app.js'),
-    },
-    output: {
-      path: path.resolve(__dirname, 'dist'),
-      filename: 'index.js',
-      clean: true,
-    },  
-    devtool: 'inline-source-map',
-    devServer: {
-        static: path.resolve(__dirname, 'dist'),
-        port: 5001, //default 8080
-        open: true,
-        hot: true,
-    },
-    module: {
-        rules: [{ test: /\.css$/, use: ['style-loader', 'css-loader'] }],
-      }, plugins: [
-        new HtmlWebpackPlugin({
-          title: 'Just a Demo',
-          filename: 'index.html',
-          template: path.resolve(__dirname, 'src/temp.html'),
-        }),
-      ],
+  mode: 'production',
+  entry: './src/index.js',
+  devtool: 'inline-source-map',
+  devServer: {
+    static: './dist',
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+  ],
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+    publicPath: '/to-do-list/',
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+  performance: {
+    hints: false,
+  },
 };
