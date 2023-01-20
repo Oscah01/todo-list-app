@@ -3,40 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Todo lists App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <title>To Do List</title>
 </head>
 <body>
-    <header>
-        <nav>
-
-        </nav>
-    </header>
-    <main>
-        <section class='todo-section'>
-            <div class="div-flex">
-                <h3>Todo List app</h3>
-                <i class="fa fa-refresh" aria-hidden="true"></i>
-            </div>
-            <form action="" class="add">
-                <input type="text" id="todoactivity" placeholder="Add to your list...">
-                <i class="fa fa-level-down fa-lg" aria-hidden="true"></i>
-            </form>
-            <form action="">
-            <div id="activity-div">
-                <div class="div-flex">
-                    <div class="activity-flex">
-                        <input type="checkbox"/>
-                        <p>Cleaning the floor</p>
-                    </div>
-                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="button-div">
-                <button id="clear" type="submit">Clear All Completed </button>
-            </div>
+    <section class="container">
+    <h1>My To Do Lists</h1>
+    <div class="form">
+        <div class="head"><p>Today's to do</p><i class="fa-sharp fa-solid fa-arrows-rotate"></i></div>
+        <form class="list-form">
+            <input type="text" class="task-input" placeholder="Add tasks to your list..." required>
+           <button type="submit" class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
         </form>
-        </section>
-    </main>
+        <ul class="lists">
+        </ul>
+        <button class="clear" >Clear all completed</button>
+    </div>
+</section>
 </body>
 </html>
