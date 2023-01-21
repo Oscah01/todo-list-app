@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "deploy": "final-todoList -d dist",
     "start": "webpack serve --open",
     "dev": "webpack serve",
     "linters": "hint . && stylelint \"**/*.css\" && eslint .",
